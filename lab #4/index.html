@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- menu bar -->
+        <div id="menu-bar-container">
+            <button class="menu-bar-btn red"></button>
+            <button class="menu-bar-btn yellow"></button>
+            <button class="menu-bar-btn green"></button>
+        </div>
+    
+
+        <!-- result container -->
+        <div id="result-container">
+            <div id="result">0</div>
+        </div>
+
+        <!-- table -->
+        <table>
+
+            <tr>
+                <td><button class="btn action-btn" onclick="clickAllClear()">AC</button></td>
+                <td><button class="btn action-btn" onclick="clickToggle()">+/-</button></td>
+                <td><button class="btn action-btn" onclick="clickPercentage()">&#37;</button></td>
+                <td><button class="btn operator-btn" onclick="clickProcessOperator('/')">&divide;</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="clickNumber(7)">7</button></td>
+                <td><button class="btn" onclick="clickNumber(8)">8</button></td>
+                <td><button class="btn" onclick="clickNumber(9)">9</button></td>
+                <td><button class="btn operator-btn" onclick="clickProcessOperator('*')">&times;</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="clickNumber(4)">4</button></td>
+                <td><button class="btn" onclick="clickNumber(5)">5</button></td>
+                <td><button class="btn" onclick="clickNumber(6)">6</button></td>
+                <td><button class="btn operator-btn" onclick="clickProcessOperator('-')">&minus;</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="clickNumber(1)">1</button></td>
+                <td><button class="btn" onclick="clickNumber(2)">2</button></td>
+                <td><button class="btn" onclick="clickNumber(3)">3</button></td>
+                <td><button class="btn operator-btn" onclick="clickProcessOperator('+')">&#43;</button></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2"><button style="width: 100%;" class="btn" onclick="clickNumber(0)">0</button></td>
+                <td><button class="btn" onclick="clickPeriod()">.</button></td>
+                <td><button class="btn operator-btn" onclick="clickEqualSigh()">&#61;</button></td>
+            </tr>
+
+        </table>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
