@@ -1,0 +1,94 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #333333;
+    color: #efe2f1;
+    font-family: 'Nunito', sans-serif;
+}
+
+form {
+    background: #B3B2D4;
+    border-radius: 40px;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+input[type="text"],
+textarea,
+select {
+    background-color: #E7E7E7;
+    border: none;
+    border-radius: 30px;
+    color: #c6cfd5;
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 30px;
+    outline: 0;
+    padding: 6px 20px 6px 20px;
+    width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #c99fb4;
+    margin: 0 10px 8px 0;
+}
+
+textarea {
+    height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    resize: none;
+}
+
+
+button {
+    background-color: #c99fb4;
+    border: none;
+    border-radius: 30px;
+    border-width: 1px 1px 3px;
+    color: #efe2f1;
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding: 19px 39px 18px 39px;
+    text-align: center;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.light {
+    display: inline;
+    font-weight: 300;
+}
+
+
+@media screen and (min-width: 480px) {
+    form {
+        max-width: 480px;
+    }
+}
+  

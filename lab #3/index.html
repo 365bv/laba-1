@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop 2.0</title>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<div>
+    <form>
+    <h1>Pizza Shop 2.0</h1>
+    
+    <fieldset>
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" maxlength="35" required>
+    
+    
+        <label>Pizza Topping:</label>
+        <input type="radio" value="supreme" name="topping" checked><label class="light">Supreme</label><br>
+        <input type="radio" value="vegetarian" name="topping"><label class="light">Vegetarian</label><br>
+        <input type="radio" value="hawaiian" name="topping"><label class="light">Hawaiian</label><br><br>
+        
+
+        <label for="sauce">Pizza Sauce:</label>
+        <select id="sauce" name="pizza_souce">
+        <optgroup label="Tomato-Based Sauces:">
+            <option value="tomato">Tomato</option>
+            <option value="marinara">Marinara</option>
+            <option value="arrabbiata">Arrabbiata</option>
+        </optgroup>
+        <optgroup label="Creamy Sauces:">
+            <option value="white">White</option>
+            <option value="alfredo">Alfredo</option>
+            <option value="bechamel">Bechamel</option>
+        </optgroup>
+        <optgroup label="Herb-Based Sauces:">
+            <option value="pesto">Pesto</option>
+            <option value="garlic">Garlic</option>
+        </optgroup>
+        <optgroup label="Oil-Based Sauces:">
+            <option value="olive">Olive</option>
+        </optgroup>
+        <optgroup label="Spicy Sauces:">
+            <option value="buffalo">Buffalo</option>
+            <option value="horseradish">Horseradish</option>
+        </optgroup>
+        <optgroup label="Unique Flavor Sauces:">
+            <option value="bbq">BBQ</option>
+            <option value="tzatziki">Tzatziki</option>
+            <option value="ranch">Ranch</option>
+            <option value="peanut">Peanut</option>
+        </optgroup>
+        </select>
+        
+
+        <label>Optional Extras:</label>
+        <input type="checkbox" value="extra_cheese" name="extras"><label class="light">Extra Cheese</label><br>
+        <input type="checkbox" value="gluten_free_base" name="extras"><label class="light">Gluten Free Base</label><br><br>
+        
+
+        <label for="delivery_instructions">Delivery Instructions:</label>
+        <textarea id="delivery_instructions" name="delivery" maxlength="200" required></textarea>
+
+    </fieldset>
+    
+    <button type="submit">Send my order</button>
+    
+    </form>
+</div>
+
+    
+</body>
+</html>
