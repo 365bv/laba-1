@@ -85,6 +85,9 @@ label {
     font-weight: 300;
 }
 
+::placeholder {
+    color: #c6cfd5;
+}
 
 @media screen and (min-width: 480px) {
     form {
