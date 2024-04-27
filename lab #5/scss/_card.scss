@@ -1,0 +1,41 @@
+.card {
+    padding: 25px;
+    border-color: transparent;
+    box-shadow: 0 1px 32px rgba(20, 23, 26, .12);
+    transition: all 0.3s cubic-bezier(0.25,.8,.25,1);
+    border-radius: 20px;
+    background-color: $card-bg-light;
+
+    p:last-of-type {
+        margin-bottom: 35px;
+    }
+
+    .title {
+        color: $primary;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+    .interests i{
+        font-size: 30px;
+        color: $secondary;
+    }
+
+    &--stats {
+        padding: 15px 10px;
+
+        i {
+            font-size: 30px;
+            color: $secondary;
+        }
+
+        p {
+            font-size: 12px;
+            color: $primary;
+        }
+    }
+    
+}
+

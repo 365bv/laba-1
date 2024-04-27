@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+
+    @media (min-width: 768px) {
+        overflow-y: hidden;
+    }
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+p.large-copy {
+    font-size: 16px;
+}
+
+p.copy {
+    font-size: 14px;
+}
+
+caption {
+    font-size: 12px;
+}
+
+@mixin text-link--large {
+    font-size: 16px;
+}
+
+.text-link--small {
+    font-size: 14px;
+}
+
+label, .label {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.wrapper .container { 
+    box-shadow: 0 1px 6px rgba(0,0,0,.27), 0 0 40px rgba(0,0,0,.06) inset;
+
+    @media (min-width: 1400px) {
+        margin:  50px auto;
+    }
+    
+    @media (min-width: 768px) {
+        border-radius: 20px;
+    }
+}
+
+.primary {
+    color: $primary;
+}
+
+.secondary {
+    color: $secondary;
+}
+
