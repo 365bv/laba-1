@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB #9</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="dog-list" class="dog-list"></div>
+    
+    <div id="dog-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <img id="modal-dog-image" src="/" alt="Dog Image">
+            <h2 id="modal-dog-title">Title</h2><hr>
+            <div class="dog-details">
+                <p><strong>Sex</strong> <span id="modal-dog-sex"></span></p> <hr>
+                <p><strong>Age</strong> <span id="modal-dog-age"></span></p> <hr>
+                <p><strong>Personality</strong> <span id="modal-dog-description"></span></p>
+            </div>
+            <a id="adopt-button" href="#" class="adopt-button"> Adopt Me </a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
